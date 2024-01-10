@@ -19,3 +19,9 @@ Java基础语法
 #### 面向对象编程（oop）
 
 ![面向对象编程（oop）](https://raw.githubusercontent.com/xiaopya/typora/master/Typora202401071915832.png)
+
+---
+
+常用API(String,ArrayList...)
+
+![常用API(String,ArrayList...)](https://raw.githubusercontent.com/xiaopya/typora/master/Typora202401102209293.png)
