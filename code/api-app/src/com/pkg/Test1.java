@@ -15,7 +15,7 @@ public class Test1 {
         p1.print();
 
         // 2.如果当前程序中，要调用其他包下的程序，则必须在当前程序中导包，才可以访问！导包格式：import包名.类名；
-        Test t1 = new Test(); // 因为调用的包在其他文件夹下面，这个时候就需要导入 import com.pkg.DemoPkg.Test;
+        Test t1 = new Test(); // 因为调用的包在其他文件夹下面，这个时候就需要导入 import com.pkg.DemoPkg.Test_LocalDate;
         t1.print();
 
         // 3.如果当前程序中，要调用Java提供的程序，也需要先导包才可以使用；但是Java.lang包下的程序是不需要我们导包的，可以直接使用
