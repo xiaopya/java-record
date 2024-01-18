@@ -5,6 +5,16 @@
       <module fileurl="file://$PROJECT_DIR$/Case1/Case1.iml" filepath="$PROJECT_DIR$/Case1/Case1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Case5/Case5.iml" filepath="$PROJECT_DIR$/Case5/Case5.iml" />
       <module fileurl="file://$PROJECT_DIR$/Case6/Case6.iml" filepath="$PROJECT_DIR$/Case6/Case6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hospital-Registration-Demo/Hospital-Registration-Demo.iml" filepath="$PROJECT_DIR$/Hospital-Registration-Demo/Hospital-Registration-Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algorithm/algorithm.iml" filepath="$PROJECT_DIR$/algorithm/algorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api-app/api-app.iml" filepath="$PROJECT_DIR$/api-app/api-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/atm-app/atm-app.iml" filepath="$PROJECT_DIR$/atm-app/atm-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/collection/collection.iml" filepath="$PROJECT_DIR$/collection/collection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/collectionDemo/collectionDemo.iml" filepath="$PROJECT_DIR$/collectionDemo/collectionDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exception/exception.iml" filepath="$PROJECT_DIR$/exception/exception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/innerClass-app/innerClass-app.iml" filepath="$PROJECT_DIR$/innerClass-app/innerClass-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oop-app/oop-app.iml" filepath="$PROJECT_DIR$/oop-app/oop-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/polymorphic-app/polymorphic-app.iml" filepath="$PROJECT_DIR$/polymorphic-app/polymorphic-app.iml" />
     </modules>
   </component>
 </project>
