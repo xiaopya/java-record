@@ -65,6 +65,10 @@
     "Application.com.StringJoiner.Test.executor": "Run",
     "Application.com.arrayList.Test2.executor": "Run",
     "Application.com.arrayList.Test3.executor": "Run",
+    "Application.com.basics.demo1.Demo.executor": "Run",
+    "Application.com.basics.demo2.Demo.executor": "Run",
+    "Application.com.basics.demo3.Demo.executor": "Run",
+    "Application.com.basics.demo4.Demo.executor": "Run",
     "Application.com.bigDecimal.Test.executor": "Run",
     "Application.com.collection.Test (1).executor": "Run",
     "Application.com.collection.Test.executor": "Run",
@@ -129,7 +133,7 @@
       <recent name="com.d7_extends_override" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Demo">
+  <component name="RunManager" selected="Application.com.basics.demo4.Demo">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.map.Demo" />
       <module name="collectionDemo" />
@@ -143,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lambda.Test" />
-      <module name="api-app" />
+    <configuration name="com.basics.demo1.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.basics.demo1.Demo" />
+      <module name="basics-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lambda.*" />
+          <option name="PATTERN" value="com.basics.demo1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,19 +160,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
-      <module name="exception" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.collection.Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.collection.Test" />
-      <module name="collectionDemo" />
+    <configuration name="com.basics.demo2.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.basics.demo2.Demo" />
+      <module name="basics-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.collection.*" />
+          <option name="PATTERN" value="com.basics.demo2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,12 +173,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.collection.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.collection.Test" />
-      <module name="collection" />
+    <configuration name="com.basics.demo3.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.basics.demo3.Demo" />
+      <module name="basics-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.collection.*" />
+          <option name="PATTERN" value="com.basics.demo3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -189,12 +186,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.map.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.map.Test" />
-      <module name="collectionDemo" />
+    <configuration name="com.basics.demo4.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.basics.demo4.Demo" />
+      <module name="basics-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.map.*" />
+          <option name="PATTERN" value="com.basics.demo4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,11 +214,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.basics.demo4.Demo" />
+        <item itemvalue="Application.com.basics.demo3.Demo" />
+        <item itemvalue="Application.com.basics.demo1.Demo" />
+        <item itemvalue="Application.com.basics.demo2.Demo" />
         <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.com.map.Test" />
-        <item itemvalue="Application.com.collection.Test (1)" />
-        <item itemvalue="Application.com.collection.Test" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -275,6 +272,8 @@
       <workItem from="1705576942704" duration="467000" />
       <workItem from="1705577434484" duration="78000" />
       <workItem from="1705577525116" duration="5676000" />
+      <workItem from="1705664234903" duration="5459000" />
+      <workItem from="1705676778441" duration="1502000" />
     </task>
     <servers />
   </component>
