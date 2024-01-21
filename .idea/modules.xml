@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/code/basics/Case1/Case1.iml" filepath="$PROJECT_DIR$/code/basics/Case1/Case1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/code/basics/Case2/Case2.iml" filepath="$PROJECT_DIR$/code/basics/Case2/Case2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/code/basics/Case3/Case3.iml" filepath="$PROJECT_DIR$/code/basics/Case3/Case3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/code/basics/Case4/Case4.iml" filepath="$PROJECT_DIR$/code/basics/Case4/Case4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/code/basics/Case5/Case5.iml" filepath="$PROJECT_DIR$/code/basics/Case5/Case5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/code/basics/Case6/Case6.iml" filepath="$PROJECT_DIR$/code/basics/Case6/Case6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/code/Hospital-Registration-Demo/Hospital-Registration-Demo.iml" filepath="$PROJECT_DIR$/code/Hospital-Registration-Demo/Hospital-Registration-Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/code/algorithm/algorithm.iml" filepath="$PROJECT_DIR$/code/algorithm/algorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/code/api-app/api-app.iml" filepath="$PROJECT_DIR$/code/api-app/api-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/code/atm-app/atm-app.iml" filepath="$PROJECT_DIR$/code/atm-app/atm-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/code/basics/basics.iml" filepath="$PROJECT_DIR$/code/basics/basics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/code/basics-demo/basics-demo.iml" filepath="$PROJECT_DIR$/code/basics-demo/basics-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/code/collectionDemo/collectionDemo.iml" filepath="$PROJECT_DIR$/code/collectionDemo/collectionDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/code/exception/exception.iml" filepath="$PROJECT_DIR$/code/exception/exception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/code/file-io/file-io.iml" filepath="$PROJECT_DIR$/code/file-io/file-io.iml" />
+      <module fileurl="file://$PROJECT_DIR$/code/innerClass-app/innerClass-app.iml" filepath="$PROJECT_DIR$/code/innerClass-app/innerClass-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/java学习记录.iml" filepath="$PROJECT_DIR$/.idea/java学习记录.iml" />
+      <module fileurl="file://$PROJECT_DIR$/code/oop-app/oop-app.iml" filepath="$PROJECT_DIR$/code/oop-app/oop-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/code/polymorphic-app/polymorphic-app.iml" filepath="$PROJECT_DIR$/code/polymorphic-app/polymorphic-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/code/properties-xml-log/properties-xml-log.iml" filepath="$PROJECT_DIR$/code/properties-xml-log/properties-xml-log.iml" />
+      <module fileurl="file://$PROJECT_DIR$/code/thread/thread.iml" filepath="$PROJECT_DIR$/code/thread/thread.iml" />
+    </modules>
+  </component>
+</project>
