@@ -19,6 +19,8 @@
       <module fileurl="file://$PROJECT_DIR$/code/file-io/file-io.iml" filepath="$PROJECT_DIR$/code/file-io/file-io.iml" />
       <module fileurl="file://$PROJECT_DIR$/code/innerClass-app/innerClass-app.iml" filepath="$PROJECT_DIR$/code/innerClass-app/innerClass-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java学习记录.iml" filepath="$PROJECT_DIR$/.idea/java学习记录.iml" />
+      <module fileurl="file://$PROJECT_DIR$/code/junit/junit.iml" filepath="$PROJECT_DIR$/code/junit/junit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/code/net/net.iml" filepath="$PROJECT_DIR$/code/net/net.iml" />
       <module fileurl="file://$PROJECT_DIR$/code/oop-app/oop-app.iml" filepath="$PROJECT_DIR$/code/oop-app/oop-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/code/polymorphic-app/polymorphic-app.iml" filepath="$PROJECT_DIR$/code/polymorphic-app/polymorphic-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/code/properties-xml-log/properties-xml-log.iml" filepath="$PROJECT_DIR$/code/properties-xml-log/properties-xml-log.iml" />
