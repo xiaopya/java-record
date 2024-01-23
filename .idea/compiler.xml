@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="moven-project" />
+        <module name="springboot-web-quickstart" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="17">
@@ -14,5 +15,10 @@
       <module name="moven_project" target="17" />
       <module name="movenA" target="17" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springboot-web-quickstart" options="-parameters" />
+    </option>
   </component>
 </project>
