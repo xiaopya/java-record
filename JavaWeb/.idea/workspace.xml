@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a19c9deb-4666-4dc4-98a3-53a1df0ac66b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/annotation/com/annotation/AnnotationTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/annotation/com/annotation/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/annotation/com/annotation/MyTest1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/annotation/com/annotation/MyTest2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/file-io/com/charset/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/file-io/com/commons_io/CommonsIO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/file-io/com/commons_io/newTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/file-io/com/commons_io/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/file-io/com/data_stream/DataInputStreamTest2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/file-io/com/data_stream/DataOutputStreamTest1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/file-io/com/data_stream/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/file-io/com/file/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/file-io/com/file/Test1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/file-io/com/file/Test2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/file-io/com/file/ccc/bbb/ceshi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/file-io/com/file/ceshi.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/file-io/com/file/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/file-io/com/io_byte/CopyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/file-io/com/io_byte/FileInputStreamTest1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/file-io/com/io_byte/FileInputStreamTest3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/file-io/com/io_byte/FileOutputStreamTest2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/file-io/com/io_byte/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/file-io/com/io_byte/测试文件.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/file-io/com/io_byte/逆水寒图片.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/file-io/com/io_byte/逆水寒图片.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/file-io/com/io_char/BufferedReaderTest3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/file-io/com/io_char/BufferedWriterTest4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/file-io/com/io_char/BufferedWriter生成文件.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/file-io/com/io_char/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/file-io/com/io_char/FileReaderTest1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/file-io/com/io_char/FileWriterTest2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/file-io/com/io_char/new.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/file-io/com/io_char/old.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/file-io/com/io_char/writer生成文件.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/file-io/com/io_char/测试.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/file-io/com/object_stream/BatchSerialization.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/file-io/com/object_stream/ObjectInputStreamTest2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/file-io/com/object_stream/ObjectOutputStreamTest1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/file-io/com/object_stream/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/file-io/com/object_stream/User1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/file-io/com/object_stream/User2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/file-io/com/object_stream/batchSerializationTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/file-io/com/object_stream/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/file-io/com/print/PrintStream生成文件.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/file-io/com/print/PrintTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/file-io/com/print/PrintTest2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/file-io/com/print/println生成文件.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/file-io/com/recursion/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/file-io/com/recursion1/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/file-io/com/transform/InputStreamReaderTest1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/file-io/com/transform/OutputStreamWriterTest2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/file-io/com/transform/gbk.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/file-io/com/transform/new_gbk.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/junit/com/junit/StringUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/junit/com/junit/StringUtilTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/net/com/tcp/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/net/com/tcp/Server.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/net/com/udp/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/net/com/udp/Client1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/net/com/udp/Server.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/properties-xml-log/com/logback/Logback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/properties-xml-log/com/properties/PropertiesTest1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/properties-xml-log/com/properties/user.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/properties-xml-log/com/xml/xml_test/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/properties-xml-log/com/xml/xml_test/xml_test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/properties-xml-log/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/proxy/com/proxy/BigStar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/proxy/com/proxy/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/proxy/com/proxy/ProxyUtil$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/proxy/com/proxy/ProxyUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/proxy/com/proxy/Star.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/proxy/com/proxy1/BigStar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/proxy/com/proxy1/ProxyUtil$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/proxy/com/proxy1/ProxyUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/proxy/com/proxy1/Star.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/proxy/com/proxy1/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/thread/com/thread/Demo/GiveGift.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/thread/com/thread/Demo/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/thread/com/thread/create_thread/MyCallable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/thread/com/thread/create_thread/ThreadTest1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/thread/com/thread/create_thread/ThreadTest2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/thread/com/thread/create_thread/ThreadTest3$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/thread/com/thread/create_thread/ThreadTest3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/thread/com/thread/create_thread/ThreadTest4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/thread/com/thread/create_thread/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/thread/com/thread/create_thread/User1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/thread/com/thread/thread_api/MyThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/thread/com/thread/thread_api/ThreadTest1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/thread/com/thread/thread_pool/MyRunnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/thread/com/thread/thread_pool/ThreadPool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/thread/com/thread/thread_pool/ThreadPool1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/thread/com/thread/thread_safe/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/thread/com/thread/thread_safe/Thread1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/thread/com/thread/thread_safe/ThreadSafe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/thread/com/thread/tz/MyRunnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/thread/com/thread/tz/Test1.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:\develop\apache-maven-3.9.6" />
+        <option name="userSettingsFile" value="D:\develop\apache-maven-3.9.6\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2bM5kXUgrHwhgGbzDpRHXKvVAEa" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/develop/java学习记录",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-corretto-17.0.9-f644763e9732-ebaef533" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a19c9deb-4666-4dc4-98a3-53a1df0ac66b" name="Changes" comment="" />
+      <created>1706012251470</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1706012251470</updated>
+      <workItem from="1706012252374" duration="3000" />
+      <workItem from="1706012261362" duration="4000" />
+      <workItem from="1706012736874" duration="9000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
