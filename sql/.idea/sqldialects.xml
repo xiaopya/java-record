@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/mysql_DDL基本语法.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/mysql_数据类型.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/mysql_案例设计员工表.sql" dialect="GenericSQL" />
+  </component>
+</project>
