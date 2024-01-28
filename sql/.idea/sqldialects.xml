@@ -2,7 +2,15 @@
 <project version="4">
   <component name="SqlDialectMappings">
     <file url="file://$PROJECT_DIR$/mysql_DDL基本语法.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/mysql_DML数据操作.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/mysql_DQL查询语句.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/mysql_分组查询.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/mysql_分页查询.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/mysql_排序查询.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/mysql_数据类型.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/mysql_条件查询.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/mysql_查询案例.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/mysql_案例设计员工表.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/mysql_聚合函数.sql" dialect="GenericSQL" />
   </component>
 </project>
