@@ -11,12 +11,15 @@
         <option value="$PROJECT_DIR$/JavaWeb/moven/pom.xml" />
         <option value="$PROJECT_DIR$/JavaWeb/moven-project/pom.xml" />
         <option value="$PROJECT_DIR$/JavaWeb/springboot-web-quickstart/pom.xml" />
+        <option value="$PROJECT_DIR$/JavaWeb/springboot-mybatis-quickstart/pom.xml" />
+        <option value="$USER_HOME$/Desktop/springboot-mybatis-quickstart/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/JavaWeb/moven/pom.xml" />
         <option value="$PROJECT_DIR$/JavaWeb/moven_project/pom.xml" />
+        <option value="$PROJECT_DIR$/JavaWeb/springboot-mybatis-quickstart/pom.xml" />
         <option value="$PROJECT_DIR$/Javaweb/maven_project/pom.xml" />
         <option value="$PROJECT_DIR$/Javaweb/movenA/pom.xml" />
         <option value="$PROJECT_DIR$/Javaweb/moven_project/pom.xml" />
