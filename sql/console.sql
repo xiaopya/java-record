@@ -1,0 +1,1 @@
+select id, username, password, name, gender, image, job, entry_time, create_time, update_time from tb_emp where id = 1;
