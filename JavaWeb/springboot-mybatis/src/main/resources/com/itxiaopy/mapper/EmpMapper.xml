@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itxiaopy.mapper.EmpMapper">
+    <!--抽离通用sql-->
+    <sql id="commonSelect">
+        select id,
+               username,
+               password,
+               name,
+               gender,
+               image,
+               job,
+               entry_time,
+               create_time,
+               update_time
+        from tb_emp
+    </sql>
+
+    <update id="update">
+        update tb_emp
+        <set>
+            username = #{username},
+            name = #{name}
+        </set>
+        where id = #{id}
+    </update>
+
+    <!--批量删除-->
+    <delete id="delete">
+        delete from tb_emp where id in
+        /**
+        collection: 遍历的集合
+        item: 遍历的元素
+        separator: 分隔符
+        open: 遍历开始前拼接的sql片段
+        close: 遍历结束后拼接的sql片段
+        */
+        <foreach collection="ids" item="id" separator="," open="(" close=")">
+            #{id}
+        </foreach>
+    </delete>
+
+    <select id="list" resultType="com.itxiaopy.pojo.Emp">
+        <include refid="commonSelect"/>
+        -- 用xml中给的where他会自动帮助去除掉没用的，and，or，where等 这些。。。
+        <where>
+            <if test="name != null">
+                name like concat('%', #{name}, '%')
+            </if>
+            <if test="entryTime != null">
+                and entry_time = #{entryTime}
+            </if>
+        </where>
+    </select>
+</mapper>

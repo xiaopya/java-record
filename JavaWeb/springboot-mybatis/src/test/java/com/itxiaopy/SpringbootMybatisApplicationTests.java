@@ -10,6 +10,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -36,14 +38,14 @@ class SpringbootMybatisApplicationTests {
     }
 
     @Test
-    public void testInsertEmp(){
+    public void testInsertEmp() {
         Emp emp = new Emp();
         emp.setUsername("username122333");
         emp.setName("张三11222");
         emp.setGender((short) 1);
         emp.setImage("6.jpg");
         emp.setJob((short) 2);
-        emp.setEntryTime(LocalDate.of(2000,1,1));
+        emp.setEntryTime(LocalDate.of(2000, 1, 1));
         emp.setCreateTime(LocalDateTime.now());
         emp.setUpdateTime(LocalDateTime.now());
         empMapper.insert(emp);
@@ -53,18 +55,32 @@ class SpringbootMybatisApplicationTests {
     }
 
     @Test
-    public void testUpdateEmp(){
+    public void testUpdateEmp() {
         Emp emp = new Emp();
         emp.setId(197);
-        emp.setUsername("cjb1");
-        emp.setName("陈佳宝1");
+        emp.setUsername("cjb122");
+        emp.setName("陈佳宝1333");
         emp.setUpdateTime(LocalDateTime.now());
         empMapper.update(emp);
     }
 
     @Test
-    public void testGetById(){
+    public void testGetById() {
         Emp temp = empMapper.getEmpById(190);
         System.out.println(temp);
+    }
+
+    @Test
+    public void testDeleteEmp() {
+        List<Integer> list = Arrays.asList(188, 189);
+        empMapper.delete(list);
+    }
+
+    @Test
+    public void testListEmp() {
+        Emp emp = new Emp();
+        emp.setName("佳宝");
+        emp.setEntryTime(LocalDate.parse("2022-01-01"));
+        empMapper.list(emp);
     }
 }
