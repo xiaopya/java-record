@@ -1,2 +1,7 @@
-package com.itxiaopy.mapper;public interface DeptMapper {
+package com.itxiaopy.mapper;
+
+import org.apache.ibatis.annotations.Mapper;
+
+@Mapper
+public interface DeptMapper {
 }

@@ -1,2 +1,7 @@
-package com.itxiaopy.service;public interface DeptService {
+package com.itxiaopy.service;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public interface DeptService {
 }
