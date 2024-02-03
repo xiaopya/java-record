@@ -1,3 +1,37 @@
+begin;
+
+
+
+commit;
+
+rollback;
+
+select *
+from emp;
+
+
+update emp
+set username = 'damimi1',
+    password = '18153112486',
+    name     = '大幂幂1',
+    gender = '1',
+    image = '"http://dummyimage.com/120x600'
+    where id = 5;
+
+insert into emp (username, name, gender, job, entry_time, dept_id, create_time, update_time)
+values ();
+
+
+select *
+from emp
+where name like concat('%', '陈', '%')
+limit 0,5;
+
+
+update dept
+set name = '就业部'
+where id = 4;
+
 select id,
        username,
        password,

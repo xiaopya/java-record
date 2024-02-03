@@ -5,6 +5,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 /**
  * @projectName: 案例1：部门管理系统（mysql,mybatis,springboot）
@@ -21,6 +22,6 @@ import java.time.LocalDate;
 public class Dept {
     private Integer id;
     private String name;
-    private LocalDate createTime;
-    private LocalDate updateTime;
+    private LocalDateTime createTime;
+    private LocalDateTime updateTime;
 }
