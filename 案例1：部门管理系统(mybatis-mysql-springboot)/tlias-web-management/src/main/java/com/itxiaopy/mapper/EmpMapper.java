@@ -3,6 +3,7 @@ package com.itxiaopy.mapper;
 import com.itxiaopy.pojo.Emp;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
+import org.springframework.web.bind.annotation.PostMapping;
 
 import java.time.LocalDate;
 import java.util.List;
@@ -43,4 +44,7 @@ public interface EmpMapper {
      * @param emp
      */
     void add(Emp emp);
+
+    @Select("select * from emp where username = #{username} and password = #{password}")
+    Emp getUserByIdAndPassword(Emp emp);
 }

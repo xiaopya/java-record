@@ -1,3 +1,6 @@
+
+select * from emp where username = 'Anna' and password = '18668279518';
+
 begin;
 
 
