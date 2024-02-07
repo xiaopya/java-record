@@ -1,0 +1,142 @@
+案例包含的内容有...
+
+1. mybatis，springboot，maven
+
+2. 注解：
+
+   ```java
+   @Slf4j // log日志
+   @RestController // 处理http请求
+   @RequestMapping("/xx") // 统一接口接口字段
+   @Component // 将某个类纳入spring管理中
+   @Autowired // 自动装填依赖关系
+   @RestControllerAdvice // 全局异常处理
+   @ExceptionHandler(Exception.class) // 全局异常处理配合上面的使用
+   @Mapper  // mybatis映射器，用于定义与数据库交互的SQL操作的接口或者类
+   @Service // 服务层，用来处理业务逻辑
+   @Configuration // 配置类
+   
+   // lombok 用于生成实体类的set get 有参构造器 无参构造器 方法
+   @Data
+   @NoArgsConstructor
+   @AllArgsConstructor
+   ```
+
+3. 用到的工具
+
+   ```xml
+   <?xml version="1.0" encoding="UTF-8"?>
+   <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+       <modelVersion>4.0.0</modelVersion>
+       <parent>
+           <groupId>org.springframework.boot</groupId>
+           <artifactId>spring-boot-starter-parent</artifactId>
+           <version>3.2.2</version>
+           <relativePath/> <!-- lookup parent from repository -->
+       </parent>
+       <groupId>com.itxiaopy</groupId>
+       <artifactId>tlias-web-management</artifactId>
+       <version>0.0.1-SNAPSHOT</version>
+       <name>tlias-web-management</name>
+       <description>tlias-web-management</description>
+       <properties>
+           <java.version>17</java.version>
+       </properties>
+       <dependencies>
+           <dependency>
+               <groupId>org.springframework.boot</groupId>
+               <artifactId>spring-boot-starter-web-services</artifactId>
+           </dependency>
+           <dependency>
+               <groupId>org.mybatis.spring.boot</groupId>
+               <artifactId>mybatis-spring-boot-starter</artifactId>
+               <version>3.0.3</version>
+           </dependency>
+   
+           <dependency>
+               <groupId>com.mysql</groupId>
+               <artifactId>mysql-connector-j</artifactId>
+               <scope>runtime</scope>
+           </dependency>
+           <!-- 用于生成实体类的set get方法-->
+           <dependency>
+               <groupId>org.projectlombok</groupId>
+               <artifactId>lombok</artifactId>
+               <optional>true</optional>
+           </dependency>
+           <!-- JWT登陆令牌-->
+           <dependency>
+               <groupId>com.auth0</groupId>
+               <artifactId>java-jwt</artifactId>
+               <version>4.4.0</version>
+           </dependency>
+           <!-- 主要是用里面的字符串处理成JSON的方法-->
+           <dependency>
+               <groupId>com.alibaba.fastjson2</groupId>
+               <artifactId>fastjson2</artifactId>
+               <version>2.0.41</version>
+           </dependency>
+           <!-- 阿里云OSS-->
+           <dependency>
+               <groupId>com.aliyun.oss</groupId>
+               <artifactId>aliyun-sdk-oss</artifactId>
+               <version>3.15.1</version>
+           </dependency>
+           <dependency>
+               <groupId>org.springframework.boot</groupId>
+               <artifactId>spring-boot-configuration-processor</artifactId>
+           </dependency>
+           <dependency>
+               <groupId>javax.xml.bind</groupId>
+               <artifactId>jaxb-api</artifactId>
+               <version>2.3.1</version>
+           </dependency>
+           <dependency>
+               <groupId>javax.activation</groupId>
+               <artifactId>activation</artifactId>
+               <version>1.1.1</version>
+           </dependency>
+           <!-- no more than 2.3.3-->
+           <dependency>
+               <groupId>org.glassfish.jaxb</groupId>
+               <artifactId>jaxb-runtime</artifactId>
+               <version>2.3.3</version>
+           </dependency>
+           <dependency>
+               <groupId>org.springframework.boot</groupId>
+               <artifactId>spring-boot-starter-test</artifactId>
+               <scope>test</scope>
+           </dependency>
+           <dependency>
+               <groupId>org.mybatis.spring.boot</groupId>
+               <artifactId>mybatis-spring-boot-starter-test</artifactId>
+               <version>3.0.3</version>
+               <scope>test</scope>
+           </dependency>
+           <dependency>
+               <groupId>com.alibaba</groupId>
+               <artifactId>druid</artifactId>
+               <version>1.2.21</version>
+           </dependency>
+       </dependencies>
+   
+       <build>
+           <plugins>
+               <plugin>
+                   <groupId>org.springframework.boot</groupId>
+                   <artifactId>spring-boot-maven-plugin</artifactId>
+                   <configuration>
+                       <excludes>
+                           <exclude>
+                               <groupId>org.projectlombok</groupId>
+                               <artifactId>lombok</artifactId>
+                           </exclude>
+                       </excludes>
+                   </configuration>
+               </plugin>
+           </plugins>
+       </build>
+   
+   </project>
+   ```
