@@ -36,6 +36,10 @@ class TliasWebManagementApplicationTests {
 		} catch (JWTCreationException e) {
 			throw new RuntimeException("error generating JWT token", e);
 		}
+
+
+		System.out.println();
+		System.out.printIn();
 	}
 
 	@Test
