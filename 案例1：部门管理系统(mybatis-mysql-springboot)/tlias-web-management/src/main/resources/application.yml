@@ -19,3 +19,7 @@ aliyun:
   oss:
     endpoint: oss-cn-hangzhou.aliyuncs.com
     bucketName: xiaopy-store
+
+logging:
+  level:
+    org.springframework.jdbc.support.JdbcTransactionManager: debug

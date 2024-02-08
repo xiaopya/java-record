@@ -1,5 +1,6 @@
 package com.itxiaopy.service.impl;
 
+import com.itxiaopy.mapper.DeptMapper;
 import com.itxiaopy.mapper.EmpMapper;
 import com.itxiaopy.pojo.Emp;
 import com.itxiaopy.pojo.PageBean;

@@ -1,4 +1,13 @@
 
+create table log (
+    id int unsigned primary key auto_increment comment '主键ID',
+    create_time datetime not null comment '创建时间',
+    log text comment '日志'
+    ) comment '日志表';
+
+insert into log(id,create_time, log) values(null,now(),'cesh111i');
+
+
 select * from emp where username = 'Anna' and password = '18668279518';
 
 begin;

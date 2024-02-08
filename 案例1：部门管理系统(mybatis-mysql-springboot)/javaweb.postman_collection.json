@@ -1,0 +1,1014 @@
+{
+	"info": {
+		"_postman_id": "77027763-a2fe-479a-8ed7-c8d3daac9217",
+		"name": "javaweb学习",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32856026",
+		"_collection_link": "https://crimson-star-223857.postman.co/workspace/xiaopy~05026d6b-6bd6-4e40-830f-877f61d2a0f0/collection/32856026-77027763-a2fe-479a-8ed7-c8d3daac9217?action=share&source=collection_link&creator=32856026"
+	},
+	"item": [
+		{
+			"name": "springbootweb请求响应",
+			"item": [
+				{
+					"name": "json参数",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Tom\",\n    \"age\": 16,\n    \"address\": {\n        \"province\": \"北京\",\n        \"city\": \"北京\"\n    }\n}"
+						},
+						"url": {
+							"raw": "http/localhost:8080/jsonParam",
+							"host": [
+								"http"
+							],
+							"path": [
+								"localhost:8080",
+								"jsonParam"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "数组参数",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http/localhost:8080/arrayParam?hobby",
+							"host": [
+								"http"
+							],
+							"path": [
+								"localhost:8080",
+								"arrayParam"
+							],
+							"query": [
+								{
+									"key": "hobby",
+									"value": "{% mock 'cname' %},{% mock 'datetime' %},{% mock 'paragraph' %},{% mock 'image' %}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "路径参数",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http/localhost:8080/pathParam/1000/cyl",
+							"host": [
+								"http"
+							],
+							"path": [
+								"localhost:8080",
+								"pathParam",
+								"1000",
+								"cyl"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "响应-json",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http/localhost:8080/listAddr",
+							"host": [
+								"http"
+							],
+							"path": [
+								"localhost:8080",
+								"listAddr"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "简单参数",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http/localhost:8080/simplePojo?name={% mock 'cname' %}&age={% mock 'integer', 1, 150 %}",
+							"host": [
+								"http"
+							],
+							"path": [
+								"localhost:8080",
+								"simplePojo"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "{% mock 'cname' %}"
+								},
+								{
+									"key": "age",
+									"value": "{% mock 'integer', 1, 150 %}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "日期时间类型",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http/localhost:8080/dateParam?updateTime={% mock 'datetime' %}{% mock 'datetime', '1981-05-04 03:50:27' %}",
+							"host": [
+								"http"
+							],
+							"path": [
+								"localhost:8080",
+								"dateParam"
+							],
+							"query": [
+								{
+									"key": "updateTime",
+									"value": "{% mock 'datetime' %}{% mock 'datetime', '1981-05-04 03:50:27' %}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "集合参数",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http/localhost:8080/listParam?hobby",
+							"host": [
+								"http"
+							],
+							"path": [
+								"localhost:8080",
+								"listParam"
+							],
+							"query": [
+								{
+									"key": "hobby",
+									"value": "{% mock 'cname' %},{% mock 'datetime' %},{% mock 'paragraph' %},{% mock 'image' %}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "复杂实体参数",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http/localhost:8080/complexpojo",
+							"host": [
+								"http"
+							],
+							"path": [
+								"localhost:8080",
+								"complexpojo"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "部门管理系统",
+			"item": [
+				{
+					"name": "用户",
+					"item": [
+						{
+							"name": "用户更新",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\t\"username\": \"Donald\",\n\t\"name\": \"姜勇\",\n\t\"password\": \"15716086083\",\n\t\"gender\": \"2\",\n\t\"image\": \"http://dummyimage.com/120x600\",\n\t\"id\": \"3\"\n}"
+								},
+								"url": {
+									"raw": "http://localhost:8080/emp/update",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"emp",
+										"update"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "文件上传",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "image",
+											"value": "file://C:\\Users\\48676\\Desktop\\1.jpg",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost:8080/emp/upload",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"emp",
+										"upload"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "用户新增",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\t\"username\": \"Jeffrey\",\n\t\"name\": \"邵军\",\n\t\"password\": \"16840953704\",\n\t\"gender\": \"1\",\n\t\"image\": \"http://dummyimage.com/160x600\",\n\t\"p\": \"14809292731\"\n}"
+								},
+								"url": {
+									"raw": "http://localhost:8080/emp/add",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"emp",
+										"add"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "用户删除",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/emp/delete",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"emp",
+										"delete"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "用户列表",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhdXRoMCIsInN1YiI6IntuYW1lPeWui-S8nywgaWQ9MjYsIHVzZXJuYW1lPWFkbWlufSIsImV4cCI6MTcwNzM5OTA3NH0.Aqu1l-tDj26VeEpD_cxLj6x4bK_3rj_j1vl-xctVeR0",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://localhost:8080/emp/list",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"emp",
+										"list"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					]
+				},
+				{
+					"name": "部门",
+					"item": [
+						{
+							"name": "部门修改",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "http://localhost:8080/dept/update?id=4&name=就业部1",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"dept",
+										"update"
+									],
+									"query": [
+										{
+											"key": "id",
+											"value": "4"
+										},
+										{
+											"key": "name",
+											"value": "就业部1"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "部门列表",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/dept/list",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"dept",
+										"list"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "部门新增",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "token",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhdXRoMCIsInN1YiI6IntuYW1lPeWGr-W5sywgaWQ9OSwgdXNlcm5hbWU9RG9ubmF9IiwiZXhwIjoxNzA3MzE2MTE4fQ.g7KH1juJ0CZcBOqiN5_AHG4lMgDHZ1Bo5AhUEAhxg3E",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{}"
+								},
+								"url": {
+									"raw": "http://localhost:8080/dept/add",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"dept",
+										"add"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "部门详情",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/dept/detail/7",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"dept",
+										"detail",
+										"7"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "部门删除",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{}"
+								},
+								"url": {
+									"raw": "http://localhost:8080/dept/delete/1?ids=1,2",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"dept",
+										"delete",
+										"1"
+									],
+									"query": [
+										{
+											"key": "ids",
+											"value": "1,2"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					]
+				},
+				{
+					"name": "用户登录",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\": \"admin\",\r\n    \"password\": \"123456\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"login"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		}
+	]
+}

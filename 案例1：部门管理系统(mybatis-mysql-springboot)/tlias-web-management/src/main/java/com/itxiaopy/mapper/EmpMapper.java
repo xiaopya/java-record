@@ -1,6 +1,7 @@
 package com.itxiaopy.mapper;
 
 import com.itxiaopy.pojo.Emp;
+import org.apache.ibatis.annotations.Delete;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -47,4 +48,7 @@ public interface EmpMapper {
 
     @Select("select * from emp where username = #{username} and password = #{password}")
     Emp getUserByIdAndPassword(Emp emp);
+
+    @Delete("delete from emp where dept_id = #{id}")
+    void deleteByDeptId(Integer id);
 }
