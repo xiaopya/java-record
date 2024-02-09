@@ -36,3 +36,23 @@ values (1, 'chenjiabao', '123456', '陈佳宝', 1, '1.jpg', '4', '1998-01-01', 4
        (3, 'chenyonglong', '123456', '陈永龙', 1, '1.jpg', '4', '1999-01-01', 4, '2024-02-01', '2024-02-01'),
        (4, 'dilireba', '123456', '迪丽热巴', 2, '14.jpg', '4', '1999-01-01', 4, '2024-02-01', '2024-02-01'),
        (5, 'damimi', '123456', '大幂幂', 2, '4.jpg', '4', '1999-01-01', 4, '2024-02-01', '2024-02-01');
+
+
+create table operate_log(
+    id int unsigned primary key auto_increment comment '主键ID',
+    operate_user int unsigned comment '操作人ID',
+    operate_time datetime comment '操作时间',
+    class_name varchar(100) comment '操作的类名',
+    method_name varchar(100) comment '操作的方法名',
+    method_params varchar(1000) comment '方法参数',
+    return_value varchar(2000) comment '返回值',
+    cost_time bigint comment '方法执行耗时，单位：ms'
+) comment '操作日志表';
+
+
+
+create table exception_log (
+    id int unsigned primary key auto_increment comment '主键ID',
+    create_time datetime not null comment '创建时间',
+    description text comment '日志'
+    ) comment '异常日志表';

@@ -21,7 +21,7 @@ import java.time.LocalDateTime;
 public class OperateLog {
     private Integer id;
     private Integer operateUser;
-    private LocalDateTime operationTime;
+    private LocalDateTime operateTime;
     private String className;
     private String methodName;
     private String methodParams;

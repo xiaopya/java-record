@@ -1,5 +1,6 @@
 package com.itxiaopy.controller;
 
+import com.itxiaopy.anno.Log;
 import com.itxiaopy.pojo.Dept;
 import com.itxiaopy.pojo.Result;
 import com.itxiaopy.service.DeptService;
@@ -37,6 +38,7 @@ public class DeptController {
         return Result.success(deptList);
     }
 
+    @Log
     @DeleteMapping("/delete/{id}")
     public Result delete(@PathVariable Integer id){
         log.info("删除部门：{}",id);
@@ -44,7 +46,7 @@ public class DeptController {
         return Result.success();
     }
 
-
+    @Log
     @PostMapping("/add")
     public Result add(@RequestBody Dept dept){
         log.info("添加部门：{}",dept);
@@ -59,6 +61,7 @@ public class DeptController {
         return Result.success(data);
     }
 
+    @Log
     @PostMapping("/update")
     public Result delete(@RequestBody Dept dept){
         log.info("更新部门数据：{}",dept);

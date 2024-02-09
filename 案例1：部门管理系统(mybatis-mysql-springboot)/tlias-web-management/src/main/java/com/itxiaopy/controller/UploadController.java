@@ -1,5 +1,6 @@
 package com.itxiaopy.controller;
 
+import com.itxiaopy.anno.Log;
 import com.itxiaopy.pojo.Result;
 import com.itxiaopy.utils.AliOSSUtil;
 import lombok.extern.slf4j.Slf4j;
@@ -27,6 +28,7 @@ public class UploadController {
     @Autowired
     private AliOSSUtil aliOSSUtil;
 
+    @Log
     @PostMapping("/upload")
     public Result upload(MultipartFile image) throws Exception {
         log.info("文件上传，文件名：{}",image.getOriginalFilename());

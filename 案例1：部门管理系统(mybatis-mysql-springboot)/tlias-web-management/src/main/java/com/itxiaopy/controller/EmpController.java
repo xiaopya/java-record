@@ -1,5 +1,6 @@
 package com.itxiaopy.controller;
 
+import com.itxiaopy.anno.Log;
 import com.itxiaopy.pojo.Emp;
 import com.itxiaopy.pojo.PageBean;
 import com.itxiaopy.pojo.Result;
@@ -42,6 +43,7 @@ public class EmpController {
         return Result.success(data);
     }
 
+    @Log
     @PostMapping("/delete/{ids}")
     public Result delete(@PathVariable List<Integer> ids){
         log.info("删除用户,参数:{}",ids);
@@ -49,12 +51,14 @@ public class EmpController {
         return Result.success();
     }
 
+    @Log
     @PostMapping("/update")
     public Result update(@RequestBody Emp emp){
         empService.update(emp);
         return Result.success();
     }
 
+    @Log
     @PostMapping("/add")
     public Result add(@RequestBody Emp emp){
         empService.add(emp);

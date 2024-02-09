@@ -1,5 +1,6 @@
 package com.itxiaopy.controller;
 
+import com.itxiaopy.anno.Log;
 import com.itxiaopy.pojo.Emp;
 import com.itxiaopy.pojo.Result;
 import com.itxiaopy.service.EmpService;
@@ -35,6 +36,7 @@ public class LoginController {
      * @param emp
      * @return
      */
+    @Log
     @PostMapping("/login")
     public Result login(@RequestBody Emp emp){
         log.info("用户登录，{}",emp);

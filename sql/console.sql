@@ -3,7 +3,7 @@
 create table operate_log(
     id int unsigned primary key auto_increment comment '主键ID',
     operate_user int unsigned comment '操作人ID',
-    operate_name datetime comment '操作时间',
+    operate_time datetime comment '操作时间',
     class_name varchar(100) comment '操作的类名',
     method_name varchar(100) comment '操作的方法名',
     method_params varchar(1000) comment '方法参数',
