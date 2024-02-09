@@ -1,6 +1,6 @@
 package com.itxiaopy.mapper;
 
-import com.itxiaopy.pojo.LogTb;
+import com.itxiaopy.pojo.ExceptionLog;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.transaction.annotation.Propagation;
@@ -10,9 +10,9 @@ import org.springframework.transaction.annotation.Transactional;
  * @author cyl
  */
 @Mapper
-public interface LogMapper {
+public interface ExceptionLogMapper {
 
     @Transactional(propagation = Propagation.REQUIRES_NEW)
-    @Insert("insert into log(create_time,log) values(#{createTime},#{log})")
-    void insert(LogTb logTb);
+    @Insert("insert into log(create_time,description) values(#{createTime},#{description})")
+    void insert(ExceptionLog description);
 }

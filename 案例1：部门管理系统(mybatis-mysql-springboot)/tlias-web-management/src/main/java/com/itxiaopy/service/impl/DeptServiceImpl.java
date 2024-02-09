@@ -2,9 +2,9 @@ package com.itxiaopy.service.impl;
 
 import com.itxiaopy.mapper.DeptMapper;
 import com.itxiaopy.mapper.EmpMapper;
-import com.itxiaopy.mapper.LogMapper;
+import com.itxiaopy.mapper.ExceptionLogMapper;
 import com.itxiaopy.pojo.Dept;
-import com.itxiaopy.pojo.LogTb;
+import com.itxiaopy.pojo.ExceptionLog;
 import com.itxiaopy.service.DeptService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -32,7 +32,7 @@ public class DeptServiceImpl implements DeptService {
     @Autowired
     private EmpMapper empMapper;
     @Autowired
-    private LogMapper logMapper;
+    private ExceptionLogMapper exceptionLogMapper;
 
     @Override
     public List<Dept> list() {
@@ -48,11 +48,11 @@ public class DeptServiceImpl implements DeptService {
             empMapper.deleteByDeptId(id);
         } finally {
             System.out.println(999999);
-            LogTb logTb = new LogTb();
-            logTb.setCreateTime(LocalDateTime.now());
-            logTb.setLog("部门删除，id:" + id);
-            log.info("log：{}",logTb);
-            logMapper.insert(logTb);
+            ExceptionLog exceptionLog = new ExceptionLog();
+            exceptionLog.setCreateTime(LocalDateTime.now());
+            exceptionLog.setDescription("部门删除，id:" + id);
+            log.info("log：{}",exceptionLog);
+            exceptionLogMapper.insert(exceptionLog);
         }
     }
 

@@ -9,17 +9,17 @@ import java.time.LocalDateTime;
 /**
  * @projectName: tlias-web-management
  * @package: com.itxiaopy.pojo
- * @className: LogTb
+ * @className: ExceptionLog
  * @author: cyl
- * @description: TODO 日志
+ * @description: TODO 异常日志
  * @date: 2024/2/8 20:59
  * @version: 1.0
  */
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class LogTb {
+public class ExceptionLog {
     private Integer id;
     private LocalDateTime createTime;
-    private String log;
+    private String description;
 }

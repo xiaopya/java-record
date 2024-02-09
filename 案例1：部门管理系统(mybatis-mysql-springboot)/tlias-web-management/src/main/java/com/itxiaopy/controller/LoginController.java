@@ -44,7 +44,7 @@ public class LoginController {
             map.put("id",e.getId());
             map.put("name",e.getName());
             map.put("username",e.getUsername());
-            String token = Jwt.generateJwtToken(map.toString());
+            String token = Jwt.generateJwtToken(map);
             return Result.success(token);
         }
         return Result.error("用户或密码错误");
